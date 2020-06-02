@@ -6,6 +6,7 @@ let allCells = document.getElementsByClassName("cells");
 
 //setting up a default color
 changeColor("#92a8d1");
+createGrid();
 
 function createGrid() {
     //initiate div grid element
