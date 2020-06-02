@@ -1,0 +1,80 @@
+:root {
+    --grid: 2;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align : center;
+}
+
+#container {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: repeat(var(--grid), 1fr);
+    grid-template-rows: repeat(var(--grid), 1fr);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.clear {
+    margin-left: 30px;
+}
+
+.choice {
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    background: cadetblue;
+    margin : 10px 10px 10px 10px;
+}
+
+#button { 
+    text-align: center;
+}
+
+button input {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.selects {
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    background-color:  #92a8d1;
+}
+
+.two {
+    background-color: #034f84;
+}
+
+.three {
+    background-color: #f7cac9;
+}
+
+.four {
+    background-color: #f7786b;    
+}
+
+.five {
+    background: linear-gradient(to right, #92a8d1, #034f84, #f7cac9, #f7786b);
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.cells {
+    border: 1px solid #777777;
+}
+
+img {
+    display: block;
+    margin: 30px auto 30px auto;
+}
+
+
