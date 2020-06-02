@@ -11,30 +11,25 @@
     </head>
     <body>
         <h1>Etch-a-Sketch</h1>
-
         <div id= "button">
             <input type="number" id="input1" placeholder="Type a number of grid">
             <button onclick="createGrid()">Submit</button>
             <button class= "clear" onclick="clearBoard()">Clear Board</button> 
         </div>
-
         <div class= "selects">
             <div class= 'choice one' onclick="chooseColor(event)"></div>
             <div class= 'choice two' onclick="chooseColor(event)"></div>
             <div class= 'choice three' onclick="chooseColor(event)"></div>
             <div class= 'choice four' onclick="chooseColor(event)"></div>
             <div class= 'choice five' onclick="chooseColor(event)">Random</div>                    
-        </div>
-            
+        </div>        
         <div id="container">
             <div class="cells"></div>
             <div class="cells"></div>
             <div class="cells"></div>
             <div class="cells"></div>
         </div>
-
-        <div class= "Github">
-            
+        <div class= "Github">    
             <a href="https://github.com/ahyoung227/Etch-a-Sketch"><img src="GitHub.png" width="40px" class="center"></a>
         </div>
         <script src="script.js" async defer></script>

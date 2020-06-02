@@ -1,4 +1,5 @@
 //grid board
+
 let container= document.getElementById("container");
 let root= document.querySelector(':root');
 let allCells = document.getElementsByClassName("cells");  
@@ -53,7 +54,7 @@ function changeRandomColor() {
         allCells[i].onmouseover = function(event) { event.target.style.backgroundColor = colorChoice[Math.floor(Math.random(0, 3)* 4)];}
 } 
 
-//let g = chooseColor(event) is does not work with return value?
+//Question: let g = chooseColor(event) is does not work with return value?
 
 
 
